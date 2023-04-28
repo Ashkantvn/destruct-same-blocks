@@ -1,10 +1,11 @@
 import React from 'react';
+import Header from './parts/header/Header';
 
 const App = () => {
   return (
-    <>
-    App
-    </>
+    <main>
+      <Header/>
+    </main>
   )
 }
 
