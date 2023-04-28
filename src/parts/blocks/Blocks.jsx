@@ -75,7 +75,6 @@ const Blocks = () => {
         <div className="game-over">
           Game over
           <h2>Score : {score}</h2>
-          <button onClick={nextRound}>Next Round</button>
         </div>
       ) : (
         <div className="blocks-div">{mappedBlocks}</div>

@@ -1,9 +1,12 @@
 import React from 'react'
 
 const Header = () => {
+  const refreshPage = ()=>{
+    window.location.reload();
+  }
   return (
     <header>
-      <button className='start-newgame'>New game</button>
+      <button onClick={refreshPage} className='start-newgame'>New game</button>
     </header>
   )
 }
