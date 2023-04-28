@@ -1,0 +1,11 @@
+.blocks-div{
+    justify-content: center;
+    display: grid;
+    margin: 1em auto;
+    grid-template-rows: repeat(9,10vh);
+    grid-template-columns: repeat(9,10vw);
+}
+.block{
+    border: 1px solid #232323;
+    background-color: white;
+}

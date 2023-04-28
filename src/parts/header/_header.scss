@@ -1,14 +1,16 @@
 header{
     display: flex;
     justify-content: space-around;
-    padding: 1em 0;
+    align-items: center;
+    height: 5vh;
 }
 .start-newgame{
+    font-size: medium;
     background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
 }
 h1{
-    font-size: small;
+    font-size: medium;
 }

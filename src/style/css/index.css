@@ -1,10 +1,12 @@
 header {
   display: flex;
   justify-content: space-around;
-  padding: 1em 0;
+  align-items: center;
+  height: 5vh;
 }
 
 .start-newgame {
+  font-size: medium;
   background-color: transparent;
   border: none;
   outline: none;
@@ -12,7 +14,20 @@ header {
 }
 
 h1 {
-  font-size: small;
+  font-size: medium;
+}
+
+.blocks-div {
+  justify-content: center;
+  display: grid;
+  margin: 1em auto;
+  grid-template-rows: repeat(9, 10vh);
+  grid-template-columns: repeat(9, 10vw);
+}
+
+.block {
+  border: 1px solid #232323;
+  background-color: white;
 }
 
 * {
