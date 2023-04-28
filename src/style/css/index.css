@@ -1,4 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0;
+}
+
+.start-newgame {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: small;
+}
+
 * {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   color: #fefefe;
