@@ -45,7 +45,8 @@ const Blocks = () => {
       setTimeout(() => {
         alert("select new color");
         targetColor.current = "";
-        currentScore.current -= 10;
+        currentScore.current -= 9;
+        gameOverChecker();
       }, 3000);
     }
     if (targetColor.current === clickedElementBackground) {
@@ -53,7 +54,6 @@ const Blocks = () => {
       currentScore.current += 1;
       count.current += 1;
     }
-    gameOverChecker();
   };
 
   ///mapping blocks data
