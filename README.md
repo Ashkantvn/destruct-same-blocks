@@ -3,7 +3,7 @@ In this game, you must first select a block, then you must click all the blocks 
 
 ## Scores
 Finishing the time to select blocks of the same color:-9 \
-Each block of the same color is selected : +1 \
+Each block of the same color is selected : +1 
 
 # Getting Started with Create React App
 
