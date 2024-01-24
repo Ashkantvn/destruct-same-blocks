@@ -2,8 +2,8 @@
 In this game, you must first select a block, then you must click all the blocks of the same color as the selected block within three seconds. After three seconds, your score will be calculated and added to your total score. You can then pick another block; after all  you can keep doing this until all the blocks are gone, and the game is over.
 
 ## Scores
-Finishing the time to select blocks of the same color:-9.
-Each block of the same color is selected : +1.
+Finishing the time to select blocks of the same color:-9 \
+Each block of the same color is selected : +1 \
 
 # Getting Started with Create React App
 
