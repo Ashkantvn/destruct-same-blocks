@@ -15,7 +15,7 @@ const Blocks = () => {
 
   ///set row and column
   useEffect(() => {
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 14; i++) {
       for (let j = 0; j < 9; j++) {
         setBlocksData((BlocksData) => [
           ...BlocksData,
@@ -30,7 +30,7 @@ const Blocks = () => {
 
   ///check the game is over or not
   const gameOverChecker = () => {
-    if (count.current > 81) {
+    if (count.current > 126) {
       setfinishedGame(true);
       setfinaleScore(currentScore.current);
     }
